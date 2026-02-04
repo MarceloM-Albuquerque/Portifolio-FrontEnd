@@ -4,10 +4,28 @@
 }
 
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;   
 }
 
 .destaca-titulo {
     color: #22D4FD;
+}
+
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.apresentacao__conteudo{
+    width: 625px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
 }
